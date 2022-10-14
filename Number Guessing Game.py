@@ -63,10 +63,9 @@ def Easy():
     except ValueError:
       print(colored("\nInvalid input.", "red"))
       Easy()
-  else:
-    print(colored("\nYou lost.", "red"))
-    print(colored(f"\nGenerated number: {Generated_number}", "green"))
-    Display()
+  print(colored("\nYou lost.", "red"))
+  print(colored(f"\nGenerated number: {Generated_number}", "green"))
+  Display()
 
   
 # Hard
@@ -97,10 +96,9 @@ def Hard():
     except ValueError:
       print(colored("\nInvalid input.", "red"))
       Hard()
-  else:
-    print(colored("\nYou lost.", "red"))
-    print(colored(f"\nGenerated number: {Generated_number}", "green"))
-    Display()
+  print(colored("\nYou lost.", "red"))
+  print(colored(f"\nGenerated number: {Generated_number}", "green"))
+  Display()
 
 
 Display()
